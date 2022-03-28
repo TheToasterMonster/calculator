@@ -63,7 +63,6 @@ function evaluate(num1, num2, operator) {
         case '+':
             return num1 + num2;
     }
-    console.log("here");
 }
 
 function update() {
