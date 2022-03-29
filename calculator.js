@@ -43,11 +43,9 @@ function add(val) {
             curr_num = evaluate(curr_num, new_num, operator);
 
             new_num = NaN;
-            operator = '';
             being_edited = false;
-        } else {
-            operator = val != '=' ? val : '';
         }
+        operator = val !== '=' ? val : '';
     }
     update();
 }
